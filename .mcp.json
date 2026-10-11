@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "forgejo": {
+      "command": "forgejo-mcp",
+      "args": [
+        "--transport", "stdio",
+        "--url", "http://192.168.86.107:3000"
+      ],
+      "env": {
+        "FORGEJO_ACCESS_TOKEN": ""
+      }
+    }
+  }
+}
